@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farhan-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Farhan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="purple">Farhan</span>
+                <div>and I am passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn resume-button">Download Resume</button>
+                    <button class="btn git-button">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="Images/developer.png" alt="Developer Image">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What my computer knows</span>
+            <h1>My Expertise</h1>
+
+            <div class="box">
+                <div class="vertical"><img src="Images/html.png" alt="Web-Developer" class="image-top">
+
+                    <div class="vertical-title">
+                        Web Developer
+                    </div>
+                    <div class="vertical-desc">
+                        I learnt Web Development on Udemy
+                        during the quarantine days, 
+                        and did many projects using
+                        HTML, css and JavaScript.
+
+                    </div>
+                </div>
+
+                <div class="vertical"><img src="Images/python.png" alt="Python" class="image-top">
+                    <div class="vertical-title">
+                        Python
+                    </div>
+                    <div class="vertical-desc">
+                        Writing codes on Pycharm is
+                        one of my favorite thing todo 
+                        and did many projects.
+                    </div>
+                </div>
+
+                <div class="vertical"><img src="Images/java.png" alt="Java" class="image-top">
+                    <div class="vertical-title">
+                        Java
+                    </div>
+                    <div class="vertical-desc">
+                        Java the Complete Reference, 
+                        became my best-friend while writing 
+                        Java codes, and am learning DSA 
+                        using Java.
+                    </div>
+                </div>
+
+                <div class="vertical"><img src="Images/git.png" alt="Git" class="image-top">
+                    <div class="vertical-title">
+                        Git
+                    </div>
+                    <div class="vertical-desc">
+                        As we know Git is a version 
+                        control system, and its very 
+                        necessary to know What Git is,
+                        and what are its benefits.
+                    </div>
+                </div>
+
+                <div class="vertical"><img src="Images/thinking.png" alt="Git" class="image-top">
+                    <div class="vertical-title">
+                        Thinking
+                    </div>
+                    <div class="vertical-desc">
+                        Let me think what I can do new.
+                        What should I do?
+                        Do you have any suggestions?
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>Farhan's Developer Portfolio</h3>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+                <div class="footer-fourth">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                copyright &#169;www.farhansportfolio.com | All rights reserved
+            </div>
+        </footer>
+
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Python Developer', 'Graphic Designer', 'Web Designer'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
